@@ -1,5 +1,5 @@
 #Hiển thị các phần tử lớn nhất trong mảng
-'''python
+```python
 tui=[]
 n=int(input("nhập số lượng phần tử list:"))
 for i in range(n):
@@ -83,4 +83,4 @@ print("list đã sort:",end="")
 for item in tui:
     print(item,end=" ")
 print()
-'''
+```
