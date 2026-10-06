@@ -1,0 +1,13 @@
+#1. Compute the sum of the series S = 2^1-2^3+ 2^5 - .... +2^(2n-1). (1 point)
+#The expected output is:
+#Your selection (1 -> 3): 1
+#Enter the n of terms: 5
+#OUTPUT
+#410
+#FINISH
+n=int(input("n="))
+s=0
+for i in range(1,n+1):
+   s=s+(-1)**(i+1)*2**(2*i-1)
+print(s)
+#(-1)**(i + 1)dùng để tạo dấu + - + - +
